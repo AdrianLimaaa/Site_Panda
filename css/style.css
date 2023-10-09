@@ -1,0 +1,298 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-attachment: scroll; 
+    color: white    ;
+   
+ 
+}
+
+.fundo{
+    background-color: #161515;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(https://i.pinimg.com/1200x/01/df/2b/01df2bfd324fe879aedecc392b4c9f7e.jpg);
+
+}
+
+.Nav-itens{
+    list-style: none;
+    display: flex;
+}
+
+.Nav-itens>li>a{
+    padding-left:60px;
+    color: white;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.Contato {
+    padding: 8px 40px;
+    size: 15px;
+    background-color: #dcdcdc;
+    border: black;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s background;
+}
+
+.Contato:hover {
+    background-color: #4d4a4a;
+    transition: 1s background;
+}
+
+/** final da nav **/
+
+.Titulo {
+   h1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: px;
+    margin-bottom: 50px;
+   }
+   img{
+    width: 500px;
+    margin-left: 70px;
+    margin-bottom: 150px;
+    border-radius: 20px;
+    
+
+    }
+    p { font-size: 22px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-top: 120px;
+        margin-left: 50px;
+        margin-right: 50px;
+        align-items: center;
+
+        }
+        border-left: solid;
+        border-right: solid;
+        border-bottom: solid;
+        
+        }
+.tei {
+            display: flex;
+            }
+
+/** final do Titulo**/
+
+.Pandas{
+    h1 {
+        font-size: 40px;
+        text-align: center;
+        margin-top: 150px;
+        margin-bottom: 20px;
+       }
+    
+    p { 
+        font-size: 22px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-top: 150px;
+        margin-left: 50px;
+        margin-right: 50px;
+        align-items: center;
+     }
+    
+    img {
+        width: 500px;
+        margin-right: 70px;
+        border-radius: 20px;
+        margin-top: 50px;
+        margin-bottom: 150px;
+        }
+
+    .tei2 {
+        display: flex;
+            }
+    border-style: solid;
+        }
+    /**Fim do Pandas**/
+
+.Habitat{
+    h1{
+        font-size: 40px;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 20px;
+    }
+    
+    img {
+        width: 500px;
+        margin-left: 70px;
+        margin-bottom: 150px;
+        border-radius: 20px;
+        margin-top: 50px;
+    }
+    
+    p { font-size: 22px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-top: 100px;
+        margin-left: 50px;
+        margin-right: 50px;
+        align-items: center;
+    }
+
+    .tei3{
+        display: flex;
+    }
+    
+    border-style: solid;
+
+}
+/** Fim do Habitat **/
+
+.Alimentação{
+    h1 {
+        font-size: 40px;
+        text-align: center;
+        margin-top: 150px;
+        margin-bottom: 20px;
+       }
+
+       p { 
+        font-size: 22px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-top: 100px;
+        margin-left: 50px;
+        margin-right: 50px;
+        align-items: center;
+     } 
+
+     img {
+        width: 500px;
+        margin-right: 70px;
+        border-radius: 20px;
+        margin-top: 50px;
+        margin-bottom: 150px;
+        }
+    
+    .tei4{
+        display: flex;
+        }
+        border-style: solid;
+}
+/** Fim do habitat **/
+
+.Curiosidades{
+     h1{
+        font-size: 40px;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 20px;
+    }
+    h3{
+        font-size: 23px;
+        text-align: center;
+        margin-top: 40px;
+     margin-bottom: 10px;
+    }
+
+.Venenoso{
+    img {
+        width: 1200px;
+        margin-left: 70px;
+        margin-bottom: 50px;
+        border-radius: 20px;
+        margin-top: 10px;
+    }
+
+    p { font-size: 18px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-top: 100px;
+        margin-left: 50px;
+        margin-right: 50px;
+        align-items: center;
+    }
+     
+    display: flex;
+
+   
+}
+
+.Solitario{
+    img {
+        width: 500px;
+        margin-right: 70px;
+        border-radius: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    p { font-size: 18px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-top: 180px;
+        margin-left: 50px;
+        margin-right: 50px;
+        align-items: center;
+    }
+    
+    display: flex;
+}
+
+.Conserv{
+    img {
+        width: 1200px;
+        margin-left: 70px;
+        margin-bottom: 50px;
+        border-radius: 20px;
+        margin-top: 10px;
+    }
+
+    p { font-size: 18px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-top: 100px;
+        margin-left: 50px;
+        margin-right: 50px;
+        align-items: center;
+    }
+     
+    display: flex;
+}
+
+.Esforcos{
+    img {
+        width: 1200px;
+        margin-right: 70px;
+        border-radius: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    p { font-size: 18px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-top: 180px;
+        margin-left: 50px;
+        margin-right: 50px;
+        align-items: center;
+    }
+    
+    display: flex;
+}
+    border-style: solid;
+
+/** Fim da curiosidade **/
+
+.Final{
+    p{
+        font-size: 18px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-top: 100px;
+        margin-left: 50px;
+        margin-right: 50px;
+        align-items: center;
+        margin-bottom: 100px
+    };
+    }
+}
+.fundo{
+    background-image: url(https://cdn.pixabay.com/photo/2016/12/29/18/44/background-1939128_1280.jpg);
+}
